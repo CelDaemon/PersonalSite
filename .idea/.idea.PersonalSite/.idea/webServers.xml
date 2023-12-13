@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="673d32ba-feac-4a5a-832a-702a3641da8f" name="voidgroup-server.local" url="https://voidgroup.net">
+        <fileTransfer rootFolder="/var/www/main-site" accessType="SFTP" host="voidgroup-server.local" port="22" sshConfigId="2255f68c-9ee4-4813-b6ad-35f2a004f630" sshConfig="devoid@voidgroup-server.local:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

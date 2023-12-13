@@ -1,0 +1,26 @@
+@model PersonalSite.Model.BigPageModel
+<!DOCTYPE html>
+<html lang="@Model.Language.IetfLanguageTag">
+<head>
+    <title>@(Model.Title != null ? $"{Model.Title} - " : null)@Model.Username's Site</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=10, initial-scale=1">
+    <link rel="icon" href="@Model.Icon"/>
+    @if (Model.Description != null)
+    {
+        <meta name="description" content="@Model.Description"/>
+    }
+    <meta property="og:title" content="@(Model.EmbedTitle != null ? $"{Model.EmbedTitle} - " : null)@Model.Username's Site"/>
+    @if (Model.EmbedDescription != null)
+    {
+        <meta property="og:description" content="@Model.EmbedDescription"/>
+    }
+    <meta property="og:url" content="@Model.EmbedUrl"/>
+    <meta property="og:image" content="@Model.EmbedImage"/>
+    
+    <meta name="pinterest" content="nopin" />
+</head>
+<body>
+@RenderBody()
+</body>
+</html>

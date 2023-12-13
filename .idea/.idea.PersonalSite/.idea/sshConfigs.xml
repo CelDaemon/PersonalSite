@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="voidgroup-server.local" id="2255f68c-9ee4-4813-b6ad-35f2a004f630" keyPath="$USER_HOME$/.ssh/id_vg_devoid" port="22" nameFormat="DESCRIPTIVE" username="devoid" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
