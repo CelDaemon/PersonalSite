@@ -1,0 +1,14 @@
+:root {
+    color-scheme: dark light;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background-color: Canvas;
+    color: CanvasText;
+}

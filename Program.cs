@@ -9,6 +9,7 @@ builder.Services.AddOptions<DiscordOptions>().BindConfiguration("Discord").Valid
 builder.Services.AddRazorPages();
 builder.Services.AddControllers();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddHttpClient();
 builder.Services.AddSingleton<DiscordService>();
 var app = builder.Build();
 app.UseForwardedHeaders(new ForwardedHeadersOptions { ForwardedHeaders = ForwardedHeaders.All });
